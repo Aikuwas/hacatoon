@@ -1,0 +1,49 @@
+#telegram{
+    background-color: rgb(255, 255, 240);
+    padding: 100px 0;
+}
+
+
+.obezyana{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+.telegram__box1{
+    width: 800px;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('../images/A-Smile-You-Can-Trust_1222x.webp');
+}
+#fr__form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 0 20px;
+}
+.telegram__box2{
+    background-color: azure;
+    padding: 15px 0;
+    border-radius: 19px;
+    height: 400px;
+    width: 800px;
+}
+#telegram h4, #telegram button, #telegram input, #telegram h3{
+    font-family: 'Open Sans', sans-serif;
+}
+#telegram button{
+    background-color:rgba(255, 255, 255, 0.8);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 15px 10px;
+    border-radius: 26px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#telegram h3{
+    text-align: center;
+    padding-bottom: 35px;
+}

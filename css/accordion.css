@@ -1,0 +1,42 @@
+#accordion{
+background: url(https://wallpapers.com/images/featured/khb1bmkt53kb4222.jpg);
+background-size: cover;
+height: 100vh;
+}
+.accordion__name{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    column-gap: 10px;
+}
+.accordion__content{
+    padding: 10px 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.2s ease-out;
+}
+.accordion__content p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.accordion__wrap.accordion__active .accordion__content{
+    max-height: 999999px;
+    transition: 0.5s ease-in;
+}
+.accordion__wrap.accordion__active .plus{
+    transform: rotate(-90deg);
+}
+#accordion h3{
+    padding: 65px 0 35px;
+    text-align: center;
+}
+.accordion p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}

@@ -1,0 +1,28 @@
+#footer{
+    background-image: url('../images/1636376266_66-modnica-club-p-gradient-tsveta-morskoi-volni-72.png');
+    background-size: 100% 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer__ul{
+    list-style: none;
+    column-gap: 10px;
+}
+.footer__box{
+    column-gap: 10px;
+}
+#footer h4, #footer li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+#footer li{
+    font-size: 11px;
+}
+#footer img{
+    width: 24x;
+    height: 24px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}

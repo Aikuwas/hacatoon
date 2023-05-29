@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) {
+    .mySwiper{
+        display: none;
+    }
+    #cover{
+        background-image: url('../images/Cafe-Backgrounds-Wallpapers_22-768x1024.jpg');
+        background-size: 100% 100%;
+    }
+    .col-6{
+        width: 100%;
+    }
+    #cover h1{
+        font-size: 40px;
+        left: 20%;
+        right: 20%;
+        bottom: 330px;
+    }
+    .modal__box{
+        column-count: 1;
+    }
+    .modal{
+        height: 38%;
+    }
+    .contentText{
+        font-size: 18px;
+    }
+    #categories .col-3{
+        width: 50%;
+    }
+    .maps__box{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+@media screen and (max-width:576px) {
+    .nav {
+        flex-direction: column;
+        height: 45%;
+        width: 100%;
+    }
+    .nav li a {
+        font-size: 30px;
+    }
+    .show-nav {
+        right: 0; 
+    }
+    #cover button{
+        left: 24%;
+        right: 24%;
+    }
+    .modalActive{
+        width: 70%;
+    }
+    #categories .col-3{
+        width: 100%;
+    }
+    .categories__box img{
+        width: 80%;
+    }
+    .categories__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer .col-4{
+        width: 100%;
+    }
+    .categories__choise{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}
